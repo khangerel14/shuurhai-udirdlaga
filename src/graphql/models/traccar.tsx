@@ -1,0 +1,31 @@
+export const traccarDeviceModel = `      
+    id
+    name
+    uniqueid
+    lastupdate
+    positionid
+    position {
+        id
+        protocol
+        deviceid
+        servertime
+        devicetime
+        fixtime
+        latitude
+        longitude
+        altitude
+        speed
+        course
+        address
+        attributes
+        accuracy
+        network
+    }
+    groupid
+    attributes
+    phone
+    model
+    contact
+    category
+    description
+`;
